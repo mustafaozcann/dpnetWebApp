@@ -1,3 +1,3 @@
-# YTM-Design_Patterns
+# dpnetWebApp
 Yazılım Tasarım ve Mimarisi dersinin Projesi için oluşturulmuştur..
 
