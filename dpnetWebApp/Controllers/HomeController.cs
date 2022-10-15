@@ -22,7 +22,7 @@ namespace dpnetWebApp.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your contact page. Mustafa Özcan Deneme";
 
             return View();
         }
