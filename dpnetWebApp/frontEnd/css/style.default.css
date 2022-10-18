@@ -1513,7 +1513,7 @@ STYLE SWITCHER FOR DEMO
   }
 }
 .navbar-default {
-  background-color: #fff;
+  background-color: transparent;
   border-bottom-color: transparent;
 }
 .navbar-default .navbar-brand {

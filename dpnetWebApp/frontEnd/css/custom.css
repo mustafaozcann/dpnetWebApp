@@ -24,6 +24,11 @@
     background-color: rgba(0,0,0,0.4); /* Siyah w / opaklık */
 }
 
+
+#logo {
+    margin-top: -18px;
+}
+
 /* İçerik / Kutu */
 .modal-content {
     background-color: rgb(255, 229, 153);
