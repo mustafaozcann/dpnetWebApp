@@ -10,6 +10,110 @@ $(function () {
 
 /* for demo purpose only - can be deleted */
 
+/* POPUP */
+// Popup Al
+var modal = document.getElementById('myModal');
+
+// Kipi açan düğmeyi al
+var btn = document.getElementById("myBtn");
+
+// Kipi kapatan <span> öğesini edinin
+var span = document.getElementById("close");
+
+// Kullanıcı düğmeyi tıklattığında
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// Kullanıcı <span> (x) düğmesini tıkladığında, popup
+span.onclick = function() {
+        modal.style.display = "none";
+        renkDegis();
+        menu1.style.background = "#3EDED3";
+        icerik1.style.display = "";
+        icerik2.style.display = "none";
+        icerik3.style.display = "none";
+        icerik4.style.display = "none";
+}
+
+// Kullanıcı modelden başka herhangi bir yeri tıklattıysa, onu kapatın.
+window.onclick = function(event) {
+        if (event.target == modal) {
+        modal.style.display = "none";
+        renkDegis();
+        menu1.style.background = "#3EDED3";
+        icerik1.style.display = "";
+        icerik2.style.display = "none";
+        icerik3.style.display = "none";
+        icerik4.style.display = "none";
+    }
+}
+/* POPUP SON */
+
+/* DİV GİZLEME */
+
+var icerik1 = document.getElementById("icerik1");
+var icerik2 = document.getElementById("icerik2");
+var icerik3 = document.getElementById("icerik3");
+var icerik4 = document.getElementById("icerik4");
+var menu1 = document.getElementById("menu1");
+var menu2 = document.getElementById("menu2");
+var menu3 = document.getElementById("menu3");
+var menu4 = document.getElementById("menu4");
+var icerikler = document.getElementsByClassName("icerikler");
+var butonlar = document.getElementsByClassName("butonlar");
+
+function divGizle() {
+    for(i = 0; i < icerikler.length; i++) {
+        icerikler[i].style.display = "none";
+      }
+ }
+
+function renkDegis() {
+    for(i = 0; i < butonlar.length; i++) {
+        butonlar[i].style.background = "#C8DE3E";
+      }
+}
+
+menu1.onclick = function() {
+    renkDegis();
+    menu1.style.background = "#3EDED3"; 
+    divGizle();
+    if (icerik1.style.display == "none") {
+        icerik1.style.display = "";
+     }
+}
+
+menu2.onclick = function() {
+    renkDegis();
+    menu2.style.background = "#3EDED3";
+    divGizle();
+    if (icerik2.style.display == "none") {
+        icerik2.style.display = "";
+    }
+}
+
+menu3.onclick = function() {
+    renkDegis();
+    menu3.style.background = "#3EDED3"; 
+    divGizle();
+    if (icerik3.style.display == "none") {
+        icerik3.style.display = "";
+    }
+}
+
+menu4.onclick = function() {
+    renkDegis();
+    menu4.style.background = "#3EDED3";
+    divGizle();
+    if (icerik4.style.display == "none") {
+        icerik4.style.display = "";
+    }
+}
+
+
+/* DİV GİZLEME SON*/
+
 function demo() {
 
     if ($('#style-switch').length > 0) {
