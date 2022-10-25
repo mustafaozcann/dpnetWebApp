@@ -68,7 +68,7 @@ li {
     float: left;
 }
 
-/*
+
 li a {
     display: block;
 
@@ -76,10 +76,10 @@ li a {
 
     background-color: #6e1723;
 }
-*/
+
 
 li a:hover{
-    background-color:#51F564; 
+    background-color:brown; 
 }
 
 

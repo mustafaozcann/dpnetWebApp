@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Yazılım Tasarım Ve Mimarisi</title>
@@ -22,127 +22,115 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="favicon.png">
-    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-  </head>
-  <body>
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body>
     <!-- navbar-->
     <header class="header">
-      <div role="navigation" class="navbar navbar-default">
-        <div class="container"><a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="DPNet" id="logo" /></a>
-          <div class="navbar-header">
-            <div class="navbar-buttons">
-              <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">Menu<i class="fa fa-align-justify"></i></button>
+        <div role="navigation" class="navbar navbar-default">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="DPNet" id="logo" /></a>
+                <div class="navbar-header">
+                    <div class="navbar-buttons">
+                        <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">Menu<i class="fa fa-align-justify"></i></button>
+                    </div>
+                </div>
+                <div id="navigation" class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li style="background-color: #6e1723;" class="active"><a href="index.html">Anasayfa</a></li>
+                        <li id="lihakkimizda" style="background-color: transparent; border-top-color: #fff;"><a href="hakkimizda.html" style="color: #fff;">Hakkımızda</a></li>
+                        <li style="background-color: #6e1723;"><a href="iletisim.html" style="color: #fff;">İletişim</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div id="navigation" class="collapse navbar-collapse navbar-right">
-            <ul class="nav navbar-nav">
-              <li style="background-color: #6e1723;" class="active"><a href="index.html">Anasayfa</a></li>
-              <li id="lihakkimizda" style="background-color: transparent; border-top-color: #fff;"><a href="hakkimizda.html" style="color: #fff;">Hakkımızda</a></li>
-              <li style="background-color: #6e1723;"><a href="iletisim.html" style="color: #fff;">İletişim</a></li>
-          </div>
         </div>
-      </div>
     </header>
 
     <div id="carousel-home" data-ride="carousel" class="carousel slide carousel-fullscreen carousel-fade">
-      <div role="listbox" class="carousel-inner">
-        <div style="background-image: url('img/firat-universitesi.jpeg');" class="item active">
-          <div class="overlay"></div>
-          <div class="carousel-caption">
-            <h1 class="super-heading">Fırat Üniversitesi</h1>
-            <p class="super-paragraph">Yazılım Tasarım ve Mimarisi Dersi Projesi</p>
-          </div>
-          </div>
+        <div role="listbox" class="carousel-inner">
+            <div style="background-image: url('img/firat-universitesi.jpeg');" class="item active">
+                <div class="overlay"></div>
+                <div class="carousel-caption">
+                    <h1 class="super-heading">Fırat Üniversitesi</h1>
+                    <p class="super-paragraph">Yazılım Tasarım ve Mimarisi Dersi Projesi</p>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
     </div>
     <!-- *** LOGIN MODAL ***_________________________________________________________
     -->
     <div id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true" class="modal fade">
-      <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
-            <h4 id="Login" class="modal-title">Customer login</h4>
-          </div>
-          <div class="modal-body">
-            <form action="customer-orders.html" method="post">
-              <div class="form-group">
-                <input id="email_modal" type="text" placeholder="email" class="form-control">
-              </div>
-              <div class="form-group">
-                <input id="password_modal" type="password" placeholder="password" class="form-control">
-              </div>
-              <p class="text-center">
-                <button type="button" class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
-              </p>
-            </form>
-            <p class="text-center text-muted">Not registered yet?</p>
-            <p class="text-center text-muted"><a href="#"><strong>Register now</strong></a>! It is easy and done in 1 minute and gives you access to special discounts and much more!</p>
-          </div>
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+                    <h4 id="Login" class="modal-title">Customer login</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="customer-orders.html" method="post">
+                        <div class="form-group">
+                            <input id="email_modal" type="text" placeholder="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input id="password_modal" type="password" placeholder="password" class="form-control">
+                        </div>
+                        <p class="text-center">
+                            <button type="button" class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
+                        </p>
+                    </form>
+                    <p class="text-center text-muted">Not registered yet?</p>
+                    <p class="text-center text-muted"><a href="#"><strong>Register now</strong></a>! It is easy and done in 1 minute and gives you access to special discounts and much more!</p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <!-- *** LOGIN MODAL END ***-->
     <section class="background-gray-lightest">
-      <div class="container">
-        <div class="breadcrumbs">
-          <ul class="breadcrumb">
-            <li><a href="index.html">Anasayfa</a></li>
-            <li>Hakkımızda</li>
-          </ul>
+        <div class="container">
+            <div class="breadcrumbs">
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li>Hakkımızda</li>
+                </ul>
+            </div>
+            <h1>Neden DPNet'i Geliştirdik?</h1>
+            <p class="lead">Tasarım desenleri, tekrarlı problemlerin çözümünde kullanılan önerilerdir. Bu alandaki Türkçe kaynak eksikliğinin farkına varılarak yazılım eğitiminde kolaylaştırıcı bir uygulama olması hedefiyle DPNet uygulaması geliştirilmiştir.</p>
         </div>
-        <h1>Text page</h1>
-        <p class="lead">This is the lead paragraph of the article. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget.</p>
-      </div>
     </section>
     <section class="blog-post">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="post-content margin-bottom--big">
-              <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
-              <h2>Header Level 2</h2>
-              <ol>
-                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                <li>Aliquam tincidunt mauris eu risus.</li>
-              </ol>
-              <blockquote>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
-              </blockquote>
-              <h3>Header Level 3</h3>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. </p>
-              <p>Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                <li>Aliquam tincidunt mauris eu risus.</li>
-              </ul>
-              <p><img src="img/blog1.jpg" alt="Example blog post alt" class="img-responsive"></p>
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="post-content margin-bottom--big">
+                        <p><strong>Tasarım desenleri ya da tasarım örüntüleri, </strong> günlük hayatımızda karşılaştığımız aynı süreci izleyerek meydana gelen problemlere yazılım çözümleri getirirken kullanılan kolaylaştırıcı şablonlardır. Şu anda literatürde 80'in üzerinde tasarım deseni vardır. DPNet uygulamasında yaygın olarak kullanılan tasarım desenleri hakkında detaylı bilgileri bulabileceksiniz.</p>
+                        <p><img src="img/strategyDesignPattern.png" alt="Example blog post alt" class="img-responsive"></p>
+                        <p>Fotoğraf: Strategy Tasarım Deseni UML Diyagramı</p>
+                    </div>
+                    <!-- /.post-content-->
+                </div>
             </div>
-            <!-- /.post-content-->
-          </div>
         </div>
-      </div>
     </section>
     <footer class="footer">
-      <div class="footer__copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <p>&copy; 2022 Yazılım Tasarım Ve Mimarisi</p>
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; 2022 DPNet</p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </footer>
     <!-- JavaScript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.cookie.js"> </script>
+    <script src="js/jquery.cookie.js"></script>
     <script src="js/lightbox.min.js"></script>
     <script src="js/front.js"></script>
-  </body>
+</body>
 </html>

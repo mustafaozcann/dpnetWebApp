@@ -206,12 +206,12 @@ a i.fa,
 button i.fa {
   margin: 0 5px;
 }
-a {
+/*a {
   text-decoration: none;
-}
-a:hover {
+}*/
+/*a:hover {
   text-decoration: none;
-}
+}*/
 .clickable {
   cursor: pointer !important;
 }
