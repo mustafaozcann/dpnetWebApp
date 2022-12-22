@@ -2,9 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\dpNetWebApp",
-    "\\dpNetWebApp\\frontEnd",
-    "\\dpNetWebApp\\frontEnd\\css\\fonts"
+    "\\dpNetWebApp\\frontEnd"
   ],
-  "SelectedNode": "\\dpNetWebApp\\frontEnd\\iletisim.html",
   "PreviewInSolutionExplorer": false
 }
