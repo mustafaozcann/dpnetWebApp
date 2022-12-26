@@ -54,7 +54,7 @@
     cursor: pointer;
 }
 
-ul {
+.modal ul {
     list-style-type: none;
 
     margin: 0;
@@ -64,12 +64,12 @@ ul {
     overflow: hidden;
 }
 
-li {
+.modal li {
     float: left;
 }
 
 
-li a {
+.modal li a {
     display: block;
 
     padding:12px 14px;
@@ -78,7 +78,7 @@ li a {
 }
 
 
-li a:hover{
+.modal li a:hover{
     background-color:brown; 
 }
 

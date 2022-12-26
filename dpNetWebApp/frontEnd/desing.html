@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/tree.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">
+    <!-- Tweaks for older IEs-->
 </head>
 <body>
 
@@ -16,7 +20,7 @@
                     <li>
                         <input type="checkbox" id="creatinonal">
                         <label for="creatinonal">creatinonal</label>
-                        <ul>
+                        <ul id="pop-up-alt">
                             <li>
                                 <label>Abstract Factory</label>
                             </li>
@@ -46,7 +50,7 @@
                     <li>
                         <input type="checkbox" id="Behavioral">
                         <label for="Behavioral">Behavioral</label>
-                        <ul>
+                        <ul id="pop-up-alt">
                             <li>
                                 <label>Chain Of Responsibility</label>
                             </li>
@@ -63,14 +67,13 @@
                             <li>
                                 <label>Mediator </label>
                             </li>
-
                         </ul>
                     </li>
 
                     <li>
                         <input type="checkbox" id="Structural">
                         <label for="Structural">Structural</label>
-                        <ul>
+                        <ul id="pop-up-alt">
                             <li>
                                 <label>Adapter</label>
                             </li>
@@ -92,8 +95,6 @@
                             <li>
                                 <label>Proxy </label>
                             </li>
-
-                            <li>
                         </ul>
                     </li>
                 </ul>
@@ -101,13 +102,41 @@
         </ul>
         </li>
         </ul>
-
         <script>
     document.getElementById('desinig pattern ').addEventListener('input', function(){
       document.querySelector('.container').style.fontSize = this.value + 'px';
     });
         </script>
     </div>
-
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span id="close">&times;</span>
+            <div>
+                <ul class="popup">
+                    <li class="popup-li"><a class="butonlar" id="menu1" href="#menu1" style="background-color:#3EDED3 ;">Tasarım Deseni Adı</a></li>
+                    <li><a class="butonlar" id="menu2" href="#menu2">Kod Örneği</a></li>
+                    <li><a class="butonlar" id="menu3" href="#urunler">UML Diyagramı</a></li>
+                    <li><a class="butonlar" id="menu4" href="#referanslar">Hangi problemin çözümü?</a></li>
+                </ul>
+            </div>
+            <div class="icerikler" id="icerik1">
+                <p> İçerik 1 </p>
+            </div>
+            <div class="icerikler" id="icerik2" style="display: none;">
+                <p> İçerik 2 </p>
+            </div>
+            <div class="icerikler" id="icerik3" style="display: none;">
+                <p> İçerik 3 </p>
+            </div>
+            <div class="icerikler" id="icerik4" style="display: none;">
+                <p> İçerik 4 </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/front.js"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@ $(function () {
 var modal = document.getElementById('myModal');
 
 // Kipi açan düğmeyi al
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("pop-up-alt");
 
 // Kipi kapatan <span> öğesini edinin
 var span = document.getElementById("close");
