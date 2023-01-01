@@ -7,11 +7,13 @@
 
 .container {
     padding: 25px;
-    width: 1300px;
+    width: 1450px;
     height: 300px;
     font-size: 11px;
     margin: 0 auto;
     overflow: auto;
+    color: white;
+    margin-left: 0%;
 }
 .container ul {
     display: flex;
@@ -84,7 +86,7 @@
     display: none;
 }
 .container ul li input:checked + label {
-    color: #be6001;
+    color: #ffe500;
 }
 .container ul li input:checked + label::after {
     height: 1em;
