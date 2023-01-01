@@ -37,6 +37,8 @@
     border: 3px solid #000000;
     border-radius: 4px;
     width: 80%; /* Ekran boyutuna bağlı olarak daha fazla veya daha az olabilir */
+    position: relative;
+    height: 20%;
 }
 
 /* Kapat Düğmesi */
@@ -82,4 +84,18 @@
     background-color:brown; 
 }
 
+#modalMenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
+.icerikler{
+    position: relative;
+    top: 25%;
+}
+
+.butonlar {
+    color: white;
+    text-decoration: none;
+}
