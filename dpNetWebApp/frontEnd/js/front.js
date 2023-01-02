@@ -29,7 +29,7 @@ btn.onclick = function() {
 span.onclick = function() {
         modal.style.display = "none";
         renkDegis();
-        menu1.style.background = "#3EDED3";
+        menu1.style.background = "#D6CE15";
         icerik1.style.display = "";
         icerik2.style.display = "none";
         icerik3.style.display = "none";
@@ -41,7 +41,7 @@ window.onclick = function(event) {
         if (event.target == modal) {
         modal.style.display = "none";
         renkDegis();
-        menu1.style.background = "#3EDED3";
+        menu1.style.background = "#D6CE15";
         icerik1.style.display = "";
         icerik2.style.display = "none";
         icerik3.style.display = "none";
@@ -71,13 +71,13 @@ function divGizle() {
 
 function renkDegis() {
     for(i = 0; i < butonlar.length; i++) {
-        butonlar[i].style.background = "#C8DE3E";
+        butonlar[i].style.background = "#6e1723";
       }
 }
 
 menu1.onclick = function() {
     renkDegis();
-    menu1.style.background = "#3EDED3"; 
+    menu1.style.background = "#D6CE15"; 
     divGizle();
     if (icerik1.style.display == "none") {
         icerik1.style.display = "";
@@ -86,7 +86,7 @@ menu1.onclick = function() {
 
 menu2.onclick = function() {
     renkDegis();
-    menu2.style.background = "#3EDED3";
+    menu2.style.background = "#D6CE15";
     divGizle();
     if (icerik2.style.display == "none") {
         icerik2.style.display = "";
@@ -95,7 +95,7 @@ menu2.onclick = function() {
 
 menu3.onclick = function() {
     renkDegis();
-    menu3.style.background = "#3EDED3"; 
+    menu3.style.background = "#D6CE15"; 
     divGizle();
     if (icerik3.style.display == "none") {
         icerik3.style.display = "";
@@ -104,7 +104,7 @@ menu3.onclick = function() {
 
 menu4.onclick = function() {
     renkDegis();
-    menu4.style.background = "#3EDED3";
+    menu4.style.background = "#D6CE15";
     divGizle();
     if (icerik4.style.display == "none") {
         icerik4.style.display = "";
